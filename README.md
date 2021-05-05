@@ -1,4 +1,4 @@
-##Tic tac toe
+## Tic tac toe
 
 This is a multiplayer game where two persons can play and see who wins
 
