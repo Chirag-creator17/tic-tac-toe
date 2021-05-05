@@ -1,0 +1,28 @@
+body {
+  background-color: #000000;
+ }
+  
+ .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+ }
+  
+ .box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .icon {
+  font-size: 35px;
+  color: #ffffff;
+ }
+ .footer{
+   text-align: center;
+   color:rgb(246, 238, 149);
+   font-size: 20px;
+   margin-top: 250px;
+   font-family :Georgia, 'Times New Roman', Times, serif ;
+ }
