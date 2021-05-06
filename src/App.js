@@ -11,11 +11,10 @@ import "./App.css";
 const itemArray = new Array(9).fill("empty");
 
 const App = () => {
-  const [isCross, setIsCross] = useState(false);
+  const [isCross, setIsCross] = useState(true);
   const [winMessage, setWinMessage] = useState("");
-
   const reloadGame = () => {
-    setIsCross(false);
+    setIsCross(true);
     setWinMessage("");
     itemArray.fill("empty", 0, 9);
   };
